@@ -1,5 +1,4 @@
 # Insight-News
-=======
 
 **Insight News** is a responsive and dynamic news web application developed using **ReactJS** and the **News API**, delivering real-time news from across the globe. Whether you're interested in business, politics, sports, entertainment, science, or technology, Insight News covers it all. 
 
