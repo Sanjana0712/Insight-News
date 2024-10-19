@@ -30,3 +30,55 @@ While Insight News offers a great browsing experience, several features can furt
 <img width="1280" alt="Screenshot 2024-10-19 at 10 35 07 AM" src="https://github.com/user-attachments/assets/92abb0f8-223d-44ce-bd98-b897de1053dd">
 
 ![1393EC1D-0FA5-49A4-A3C6-DF2365650E25_1_201_a](https://github.com/user-attachments/assets/82c0d8c7-3b28-4c34-a8b6-2550bd95ab7b)
+
+## How to Run the Project Locally
+
+To run **Insight News** on your local machine, follow these steps:
+
+- **Prerequisites**:
+  - Install [Node.js](https://nodejs.org/) and npm (comes with Node.js).
+
+- **Clone the Repository**:
+  - Clone the project using the following command:
+    ```bash
+    git clone https://github.com/Sanjana0712/Insight-News.git
+    ```
+
+- **Navigate to the Project Directory**:
+  - Move into the project folder:
+    ```bash
+    cd Insight-News
+    ```
+
+- **Install Dependencies**:
+  - Install the required packages:
+    ```bash
+    npm install
+    ```
+
+- **Set Up News API Key**:
+  - Create a `.env` file in the root of the project.
+  - Add the following to the `.env` file:
+    ```bash
+    REACT_APP_NEWS_API=your_api_key_here
+    ```
+  - Replace `your_api_key_here` with your [NewsAPI](https://newsapi.org/) key.
+
+- **Run the Application**:
+  - Start the development server:
+    ```bash
+    npm start
+    ```
+  - Open `http://localhost:3000` in your browser to view the app.
+
+- **Build the Application for Production**:
+  - To build the project for production:
+    ```bash
+    npm run build
+    ```
+  - This will create the optimized production build in the `build/` folder.
+
+---
+
+By following these steps, you'll be able to run **Insight News** locally on your machine.
+
