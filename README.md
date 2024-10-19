@@ -69,7 +69,6 @@ To run **Insight News** on your local machine, follow these steps:
     ```bash
     npm start
     ```
-  - Open `http://localhost:3000` in your browser to view the app.
 
 - **Build the Application for Production**:
   - To build the project for production:
