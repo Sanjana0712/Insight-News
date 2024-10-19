@@ -1,33 +1,50 @@
+<<<<<<< HEAD
 /* .App {
   text-align: center;
+=======
+.nav-link {
+  transition: color 0.3s ease, background-color 0.3s ease;
+>>>>>>> e233ae9 (This is a news app)
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-link:hover {
+  color: #007bff;
+  background-color: rgba(0, 123, 255, 0.1); 
+  border-radius: 5px; 
+  text-decoration: none; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.light {
+  background-color: #f8f9fa;
+  color: #000;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+.dark {
+  background-color: #121212;
+  color: #fff;
+}
+
+
+.navbar-light .navbar-brand, .navbar-light .nav-link {
+  color: #000;
+}
+
+.navbar-dark .navbar-brand, .navbar-dark .nav-link {
+  color: #fff;
+}
+
+.card-dark {
+  background-color: #1c1c1c;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.card-light {
+  background-color: white;
+  color: black;
 }
 
+<<<<<<< HEAD
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -62,3 +79,19 @@
 
 
 
+=======
+.btn {
+  border: none;
+  background-color: transparent; 
+  padding: 10px; 
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.btn:hover {
+  background-color: #e0e0e0; 
+  transform: scale(1.2); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+>>>>>>> e233ae9 (This is a news app)
