@@ -17,6 +17,7 @@
 - **PropTypes for Validation**: PropTypes are implemented for type-checking props, ensuring that the right types of data are passed to each component, which increases reliability.
 
 - **Async/Await for API Calls**: Data fetching from the News API is handled using `async/await` to maintain readability and manage asynchronous operations smoothly.
+- **LLM-based Article Summarization**: The application integrates an LLM API (like Hugging Face) to summarize news articles. Users can click on the "Show Summary" button to display a brief summary of each news article, improving content accessibility and saving time for users who want quick insights.
 
 ## Future Enhancements
 
