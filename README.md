@@ -30,9 +30,10 @@ While Insight News offers a great browsing experience, several features can furt
 ## Screenshots 
 <img width="1280" alt="Screenshot 2024-10-19 at 10 35 07 AM" src="https://github.com/user-attachments/assets/92abb0f8-223d-44ce-bd98-b897de1053dd">
 
-![1393EC1D-0FA5-49A4-A3C6<img width="1280" alt="Screenshot 2024-11-12 at 6 08 53 PM" src="https://github.com/user-attachments/assets/1de8d3c5-b550-4cf1-9f4a-70bed1fa8a4d">
+![1393EC1D-0FA5-49A4-A3C6-DF2365650E25_1_201_a](https://github.com/user-attachments/assets/073936ca-cc13-48c2-8169-55579cc6a6bc)
 
--DF2365650E25_1_201_a](https://github.com/user-attachments/assets/82c0d8c7-3b28-4c34-a8b6-2550bd95ab7b)
+<img width="1280" alt="Screenshot 2024-11-12 at 6 08 53 PM" src="https://github.com/user-attachments/assets/90425e3a-1f17-4822-87b9-7623d54e3630">
+
 
 ## How to Run the Project Locally
 
