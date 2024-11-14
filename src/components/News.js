@@ -40,8 +40,6 @@ const News = (props)=>{
             props.setProgress(100);
         }
     };
-    
-
     //Fetch summary
     const fetchSummary = async (description) => {
         try {

@@ -1,26 +1,33 @@
 import './App.css';
-import React from 'react'
+import React, { useEffect } from 'react'
 import {useState}from 'react'
 import NavBar from './components/NavBar';
 import News from './components/News';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LoadingBar from 'react-top-loading-bar'
+import { auth, signInWithGoogle, logOut } from './firebase';
+import userEvent from '@testing-library/user-event';
 
 const App = () => {
   const pageSize = 6;
   const apiKey = process.env.REACT_APP_NEWS_API;
   const [progress, setProgress] = useState(0);
   const[theme, setTheme] = useState('light');
+  const[user, setUser] = useState(null);
 
   const toggleTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light';
     setTheme(newTheme);
 }
 
+useEffect(() => {
+  auth.onAuthStateChanged(setUser);
+  },[]);
+
   return (
     <div className={theme}>
       <Router>
-        <NavBar toggleTheme={toggleTheme} theme={theme}/>
+        <NavBar toggleTheme={toggleTheme} theme={theme} user={user} signIn={signInWithGoogle} logOut={logOut}/>
         <LoadingBar height={3} color="#f11946" progress={progress} />
         <Routes>
           <Route

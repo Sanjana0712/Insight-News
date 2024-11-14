@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import { FaSun, FaMoon } from 'react-icons/fa';
 
-const NavBar = ({toggleTheme, theme}) => {
+const NavBar = ({toggleTheme, theme, user, logOut, signIn}) => {
 
     return (
         <div>
@@ -29,6 +29,16 @@ const NavBar = ({toggleTheme, theme}) => {
                         <button className="btn btn-outline-dark" onClick={toggleTheme}>
                             {theme === 'dark' ? <FaSun /> : <FaMoon />} 
                         </button>
+
+                        {user ? (
+                            <>
+                            <span className="navbar-text ms-2">{user.displayName}</span>
+                            <button className="btn btn-outline-danger ms-2" onClick={logOut}>Sign Out</button>
+                            </>
+                        ) : (
+                            <button className="btn btn-outline-primary ms-2" onClick={signIn}>Sign In with Google</button>
+                        )}
+
                     </div>
                 </div>
             </nav>
