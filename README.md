@@ -1,5 +1,3 @@
-# Insight-News
-
 **Insight News** is a responsive and dynamic news web application developed using **ReactJS** and the **News API**, delivering real-time news from across the globe. Whether you're interested in business, politics, sports, entertainment, science, or technology, Insight News covers it all. 
 
 ## Features
@@ -17,6 +15,7 @@
 - **PropTypes for Validation**: PropTypes are implemented for type-checking props, ensuring that the right types of data are passed to each component, which increases reliability.
 
 - **Async/Await for API Calls**: Data fetching from the News API is handled using `async/await` to maintain readability and manage asynchronous operations smoothly.
+- **LLM-based Article Summarization**: The application integrates an LLM API (like Hugging Face) to summarize news articles. Users can click on the "Show Summary" button to display a brief summary of each news article, improving content accessibility and saving time for users who want quick insights.
 
 ## Future Enhancements
 
@@ -29,7 +28,10 @@ While Insight News offers a great browsing experience, several features can furt
 ## Screenshots 
 <img width="1280" alt="Screenshot 2024-10-19 at 10 35 07 AM" src="https://github.com/user-attachments/assets/92abb0f8-223d-44ce-bd98-b897de1053dd">
 
-![1393EC1D-0FA5-49A4-A3C6-DF2365650E25_1_201_a](https://github.com/user-attachments/assets/82c0d8c7-3b28-4c34-a8b6-2550bd95ab7b)
+![1393EC1D-0FA5-49A4-A3C6-DF2365650E25_1_201_a](https://github.com/user-attachments/assets/073936ca-cc13-48c2-8169-55579cc6a6bc)
+
+<img width="1280" alt="Screenshot 2024-11-12 at 6 08 53 PM" src="https://github.com/user-attachments/assets/90425e3a-1f17-4822-87b9-7623d54e3630">
+
 
 ## How to Run the Project Locally
 

@@ -40,6 +40,11 @@ const News = (props)=>{
             props.setProgress(100);
         }
     };
+<<<<<<< HEAD
+=======
+    
+
+>>>>>>> 7850d43f56db0a7774715f95950d99fac3f2242b
     //Fetch summary
     const fetchSummary = async (description) => {
         try {
